@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<style>
+
+
+  .rem-1{
+    font-size: 1.5rem;
+  }
+
+  .rem-half{
+    font-size: 1rem;
+  }
+
+  #logout {
+    float: right;
+    margin-top: 20px;
+  }
+
+  .banner-area {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    background-image: url(fac1.jpg);
+    background-size: cover;
+    background-position: center center;
+  }
+
+  #boxes {
+    margin-left: 77%;
+    width: 10%
+  }
+
+  #edit {
+    margin-left: 77%;
+    width: 10%
+  }
+
+  #delete {
+    margin-left: 77%;
+    width: 10%
+  }
+
+  #modal {
+    width: 500px;
+  }
+
+  #submitbutton {
+    float: left
+  }
+  .first{
+   background-image: url('ab.png');
+   filter: blur(8px);
+  -webkit-filter: blur(8px);
+   }
+
+
+
+  .notification {
+    background-color: #555;
+    color: white;
+    text-decoration: none;
+    padding: 15px 26px;
+    position: relative;
+    display: inline-block;
+    border-radius: 2px;
+  }
+
+  .notification:hover {
+    background: red;
+  }
+
+  .notification .badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    padding: 5px 10px;
+    border-radius: 50%;
+    background: red;
+    color: white;
+  }
+
+  .modal {
+    transition: opacity 0.25s ease;
+  }
+
+  body.modal-active {
+    overflow-x: hidden;
+    overflow-y: visible !important;
+    transition: opacity 0.25s ease;
+  }
+
+  body.modal-active {
+    overflow-x: hidden;
+    overflow-y: visible !important;
+  }
+
+  li {
+    font-family: 'Trebuchet MS', sans-serif
+  }
+
+
+  body, html {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url("flask app/assets/images/Login.jpeg");
+
+
+  /* Add the blur effect */
+  filter: blur(6px);
+  -webkit-filter: blur(6px);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+
+  color: black;
+  font-weight: bold;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+</style>
+
+<body>
+  <!--navigation bar-->
+  <header class="text-white bg-blue-400
+ 00 body-font md:pl-1" style="background-color: rgb(0,153,204);">
+    <div id="logout">
+      </a>
+    </div>
+    <div class="container mx-auto flex flex-wrap p-2 flex-col md:flex-row items-center">
+      <a class="flex title-font font-medium items-center text-white mb-1 md:mb-0">
+        <span class="ml-7 text-2xl">AAI</span>
+      </a>
+
+      <nav
+        class="md:mr-auto md:ml-6 md:py-1 md:pl-4 md:border-l md:border-white-700 flex flex-wrap items-center text-l justify-center">
+
+      </nav>
+  </header>
+
+  <div class="bg-image"></div>
+
+
+  <div class="bg-text">
+      <div class="w-full bg-white rounded-xl shadow-lg p-8 m-4 md:max-w-sm md:mx-auto">
+      <span class="mb-0 text-muted">
+        {% if msg %}
+            {{ msg | safe }}
+        {% else %}
+        <h1 class="rem-1 block w-full text-xl uppercase font-bold mb-10">Login</h1>
+        {% endif %}
+      </span>
+        <form method="post" class="">
+          <div class="mb-4 md:w-full">
+            <label  class="rem-half block text-xs mb-2">Email</label>
+          </div>
+          <div class="mb-6 md:w-full">
+            <label  class="rem-half block text-xs mb-2">Password</label>
+          </div>
+        </div>
+        <br>
+          <input type="submit" value="Log In" class="rem-half bg-blue-500 hover:bg-blue-400 text-white uppercase text-sm font-semibold mt-5 mb-5 px-4 py-2 rounded">
+        </form>
+
+    </div>
+  </div>
+
+</body>
+</html>
