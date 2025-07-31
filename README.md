@@ -1,6 +1,16 @@
 # COVID-19 Detection using Chest X-rays and CT Scans
 
-A comprehensive AI-powered system for detecting COVID-19 from medical imaging using multiple deep learning models. This project implements four state-of-the-art transfer learning algorithms to analyze chest X-rays and CT scans for COVID-19 detection.
+> **Original Project**: This project is based on the work by [Kaushik Jadhav](https://github.com/kaushikjadhav01/COVID-19-Detection-Flask-App-based-on-Chest-X-rays-and-CT-Scans) and has been modified and enhanced for educational purposes.
+
+> **Live Demo**: [Original Project Demo](http://coviddetector.kajadhav.me)
+
+An enhanced version of a comprehensive AI-powered system for detecting COVID-19 from medical imaging using multiple deep learning models. This project implements four state-of-the-art transfer learning algorithms to analyze chest X-rays and CT scans for COVID-19 detection.
+
+**Enhanced Features:**
+- Improved documentation and setup instructions
+- Better project structure and organization
+- Enhanced technical details and usage guidelines
+- Proper attribution to original author
 
 ## 🚀 Features
 
@@ -10,6 +20,7 @@ A comprehensive AI-powered system for detecting COVID-19 from medical imaging us
 - **Web Interface**: User-friendly Flask web application
 - **Real-time Processing**: Instant results with confidence scores
 - **Medical Grade**: Trained on real medical imaging data
+- **Enhanced Documentation**: Improved README and setup instructions
 
 ## 📊 Model Performance
 
@@ -170,12 +181,25 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 This project is open source and available under the [MIT License](LICENSE).
 
-## 👨‍💻 Author
+## 👨‍💻 Authors
 
-**Devarshi0808**
+### Original Author
+**Kaushik Jadhav**
+- GitHub: [kaushikjadhav01](https://github.com/kaushikjadhav01)
+- Portfolio: [kajadhav.me](http://kajadhav.me/)
+- Medium: [@kaushikjadhav01](https://medium.com/@kaushikjadhav01)
+- LinkedIn: [kaushikjadhav01](https://www.linkedin.com/in/kaushikjadhav01/)
+
+### Enhanced Version
+**Devarshi0808** - Enhanced documentation and improvements
 
 ## 🙏 Acknowledgments
 
+### Original Project
+- **Kaushik Jadhav** - Original implementation and research
+- **Towards Data Science** - [Published Article](https://towardsdatascience.com/covid-19-detector-flask-app-based-on-chest-x-rays-and-ct-scans-using-deep-learning-a0db89e1ed2a)
+
+### Technical Acknowledgments
 - Medical imaging datasets and research community
 - TensorFlow and Keras development teams
 - Flask web framework community
@@ -186,6 +210,17 @@ This project is open source and available under the [MIT License](LICENSE).
 This tool is for research and educational purposes only. It should not be used as a substitute for professional medical diagnosis. Always consult healthcare professionals for medical decisions.
 
 ---
+
+## 📋 Project Status
+
+This is an enhanced version of the original COVID-19 Detection project by Kaushik Jadhav. The core functionality and models remain the same, but the documentation and setup instructions have been improved for better user experience.
+
+### Modifications Made:
+- ✅ Enhanced README with comprehensive documentation
+- ✅ Improved installation instructions
+- ✅ Better project structure documentation
+- ✅ Added proper attribution to original author
+- ✅ Enhanced technical details and usage guidelines
 
 **Note**: This project demonstrates the potential of AI in medical imaging but should be used responsibly and in conjunction with professional medical expertise.
 
